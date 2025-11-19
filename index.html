@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>WSL SSH Reconnect</title>
+<style>
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+.box {
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+.code {
+    font-size: 18px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 5px;
+    margin-top: 10px;
+    user-select: all;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+</style>
+</head>
+<body>
+
+<h2>WSLバックアップ完了 🎉</h2>
+<p>SSH再接続はこちら👇</p>
+
+<div class="box">
+    <p>📱 iPhone/Android</p>
+    <a class="btn" href="ssh://akio_hayakawa@wsl-home.akihome.mydns.jp:40222">
+        SSHアプリで開く 🔑
+    </a>
+
+    <p class="code">
+        ssh -p 40222 akio_hayakawa@wsl-home.akihome.mydns.jp
+    </p>
+</div>
+
+<p style="margin-top:35px">※アプリ未設定なら上記コマンドをコピーしてください</p>
+
+</body>
+</html>
